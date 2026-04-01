@@ -1,0 +1,21 @@
+Azure VM connectivity issues can occur due to incorrect Network Security Group (NSG) rules blocking inbound or outbound traffic.
+
+If a Virtual Machine is not accessible via SSH or RDP, check if the correct port (22 for SSH, 3389 for RDP) is open in NSG.
+
+DNS issues happen when domain names are not resolved to correct IP addresses. Check DNS server configuration and flush DNS cache.
+
+Firewall misconfiguration can block application traffic. Ensure inbound and outbound rules allow required ports.
+
+If a VM is running but not reachable, check if the public IP is assigned and correctly mapped.
+
+High CPU or memory usage can make the VM unresponsive. Monitor metrics and restart if required.
+
+Routing issues may occur if route tables are misconfigured.
+
+Disk full issues can crash services.
+
+VPN connectivity issues can be due to incorrect gateway configuration.
+
+API failures may occur due to authentication errors.
+
+Always check logs and monitoring tools before taking action.

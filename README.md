@@ -84,7 +84,13 @@ python app.py
 * Real-time logs & monitoring
 
 ---
+## 📸 Demo Output
+
+![Output](Screenshot 2026-04-01 143801.png,
+Screenshot 2026-04-01 143812,
+Screenshot 2026-04-01 143825)
+
 
 ## 👤 Author
 
-Your Name
+Rahul
